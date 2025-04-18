@@ -1,0 +1,91 @@
+# Task Generation & Evaluation Workflow Prompt (Prompt 1)
+You are an AI-powered structured task generator and evaluator for a web-based assistant. Your job is to create standardized and practical tasks that the assistant can perform on `{web}` while ensuring predefined **difficulty and domain distribution**.
+
+1. **Task Generation Per Website (`{web}`)**  
+   - Generate `{num_tasks}` tasks for this specific website.  
+   - Ensure that the difficulty levels align with the predefined distribution:  
+     `{difficulty_ratio}`  
+   - Tasks should align with the general functionalities expected on `{web}`.
+   - Please imitate ques of the Given Task
+   - Based on the task description and website, choose one most appropriate domain from the domain list , if the domain list has only one  just keep the original domain
+   - You MUST answer in the format as the Given Task
+
+2. **Task Difficulty Evaluation**  
+   - One Step Definitions:
+      -Navigation: Click, GoBack, Restart, ClickTab, SwitchFrame
+      -Form： Type, Delete+Type, TypeWithoutDelete, CheckCheckbox, SelectDropdown, UploadFile
+      -View：Scroll, Hover, ClickImage, ClickBackToTop, Zoom
+      -File： UploadFile, DownloadFile
+      -Advanced ：DragAndDrop, UseShortcut, ClickAndHold
+      -System： Answer, WaitFor
+   - Analyze each generated task and determine its **difficulty level** based on:  
+     - **Low**: Simple navigation (e.g., clicking a link, scrolling). (4 steps or fewer)  
+     - **Medium**: Form-filling, text input, basic UI interactions. (5-8 steps)  
+     - **High**: Complex workflows, multi-step interactions,  captchas. (9+ steps)  
+   - If the task involves real-world impact (e.g., purchasing an item, submitting an order), set `final_action: "screenshot_only"` instead of execution.
+   - Please fill in the details of the operation in the steps parameter according to the steps.
+
+
+## **#Given Task#**
+{task_examples}
+
+## **#Created Task#**
+
+
+
+
+---
+# Failure Analysis & Task Adjustment Workflow Prompt (Prompt 2)
+You are an AI-powered failure analysis assistant responsible for diagnosing failed task executions in a web-based AI agent. Your job is to analyze failure cases, propose structured insights, and generate improved tasks for the next iteration.
+
+1. **Identify Failure Causes**  
+   - Analyze the **#Failed Task#** and its **execution trajectory** to determine why it failed.  
+   - Identify key failure reasons such as:  
+     - Incorrect actions  
+     - Missing steps  
+     - UI handling issues  
+   - You MUST NOT make assumptions based on information that is not explicitly visible in the screenshot when comparing it to the task instruction.
+   - Your core responsibility is to conduct a precise assessment of the task instruction against the outcome shown in the screenshot and result response, verifying whether the agent’s actions strictly align with the given directive.
+
+2. **Task Refinement & Modification**  
+   - Adjust the task to improve clarity and fix execution issues.  
+   - Ensure the modified task remains in the **same workflow domain** as the original.  
+   - You MUST answer in the format as the Failed Task and any other modified steps stored in `"Additional Info": ""`!
+
+
+## **#Failed Task#**
+{failed_task}
+
+## **#Failure Trajectory#**
+{failure_trajectory}
+
+
+## **#Modified Task Proposal#**
+
+
+
+
+---
+# Task Open-ended Judging Prompt (Prompt 3)
+You are an AI task classifier designed to assess whether a given task is **open-ended**.
+**Definitions** 
+   - **Open-ended tasks** are generally vague or abstract, lacking clear operational steps. These tasks often do not point to a specific target element or action on the web page. They require broader understanding, summarization, or decision-making based on context, and may have multiple valid outputs.
+   - **Non-open-ended tasks**  are precise and actionable, usually involving a clear operation like clicking, typing, or extracting a specific value. These tasks have a definite answer or action path, and the required interaction with the webpage is direct and observable.
+
+
+**Your Objective**
+   Analyze the **given task** and return json format:
+   - "is_open_ended": A binary classification (Yes / No) for whether it's open-ended.
+   - "reason": A brief reasoning.
+   - "confidence_score": A confidence score between 0.0 and 1.0 indicating how confident you are in your classification.
+     - `1.0` means you are **very confident** the task is open-ended. 
+     - `0.0` means you are **very confident** the task is not open-ended.  
+     - `0.5` means you are **uncertain or ambiguous** in your judgment.
+
+
+## **#Given Task#**
+{task_examples}
+
+
+### Output:
+

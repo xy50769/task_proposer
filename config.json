@@ -1,0 +1,59 @@
+{
+    "api_key": "sk-j3wmen2pixwfcwE6len3VkzLk8DbG9HWbIcXmPYNWHD2atFY",
+    "base_url": "https://zzzzapi.com/v1",
+    "model": "gpt-3.5-turbo",
+    "model_failure":"gpt-4-vision-preview",
+    "temperature": 0.7,
+    "top_p": 0.9,
+
+    "SAVE_PATH": "web_tasks.json",
+    "PROMPT_FILE_PATH": "task_prompts.txt",
+    "FAILUR_TRAJECTORY":"failure_trajectory.json",
+
+    "num_iterations":2,
+    "num_per_tasks":1,
+    "confidence_threshold":0.2,
+
+    "task_scaling": {
+        "low_ratio_start": 0.8,
+        "low_ratio_end": 0.1,
+        "medium_ratio_start": 0.2,
+        "medium_ratio_end": 0.5,
+        "high_ratio_start": 0.0,
+        "high_ratio_end": 0.6
+    },
+
+    "workflow_domains": [
+        "buying",
+        "booking",
+        "sending an email",
+        "searching",
+        "browsing",
+        "data extraction"
+    ],
+
+    "domain_categories": [
+        "Education",
+        "Entertainment",
+        "Health",
+        "Job",
+        "Shopping",
+        "Travel",
+        "Other",
+        "Diet",
+        "Stay"
+    ],
+
+    "domain_task_configs": {
+        "Shopping": {
+            "count": 3,
+            "url": "https://www.amazon.com/",
+            "web_name": "Amazon"
+        },
+        "Entertainment": {
+            "count": 2,
+            "url": "https://www.bbcnews.com/",
+            "web_name": "BBC News"
+        }
+    }
+}

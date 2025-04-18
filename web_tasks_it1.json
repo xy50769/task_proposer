@@ -1,0 +1,117 @@
+[
+    {
+        "task": "Explore the word of the day feature",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 3,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "final_action": "submit",
+        "Additional Info": "Modify Step 2: Locate 'Word of the Day' section by navigating to the 'Explore' dropdown menu on the homepage",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Watch a live game stream on ESPN without a subscription",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 6,
+        "task_difficulty": "high",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Entertainment",
+        "final_action": "screenshot_only",
+        "Additional Info": "Step 5: Use Incognito mode or clear browser cookies to bypass subscription requirement",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Find a recipe for Chocolate Cake that requires no baking and can be made in under 10 minutes on Allrecipes",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": "Food",
+        "steps": {
+            "1": "Type 'Chocolate Cake' in the search bar",
+            "2": "Click on the search icon",
+            "3": "Scroll through the results to find a 'No-Bake Chocolate Cake' recipe",
+            "4": "Click on the recipe to view the details",
+            "5": "Check the preparation time to ensure it can be made in under 10 minutes",
+            "6": "Read user reviews to ensure it has a good rating"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Find a recipe for vegetarian lasagna with over 50 reviews and a rating of at least 4.6 stars on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Diet",
+        "steps": {},
+        "final_action": "screenshot_only",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Find a recipe for chocolate chip cookies with more than 500 reviews and a rating of at least 4.8 stars suitable for 12 people on Allrecipes",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Diet",
+        "steps": {},
+        "final_action": "<submit/screenshot_only>",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Find a popular Macaroni and Cheese recipe with over 1000 reviews and a rating above 4 stars. Add the necessary ingredients to a shopping list on Allrecipes",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 8,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Food",
+        "steps": {
+            "1": "Search for 'Macaroni and Cheese' in the search bar",
+            "2": "Filter the search results to show recipes with over 1000 reviews",
+            "3": "Select a recipe with a rating above 4 stars",
+            "4": "View the ingredients list of the selected recipe",
+            "5": "Click on 'Add to Shopping List' for each ingredient",
+            "6": "Ensure all necessary ingredients are added to the shopping list",
+            "7": "Review the shopping list to confirm all items are included",
+            "8": "Finish creating the shopping list"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Find a recipe for a vegetarian lasagna that has at least a four-star rating and uses zucchini on Allrecipes",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "buying"
+        ],
+        "domain": "Health",
+        "steps": {
+            "1": "Type 'vegetarian lasagna' in the search bar",
+            "2": "Click on the search icon",
+            "3": "Filter the search results for recipes with at least a four-star rating",
+            "4": "Look for recipes that include zucchini as an ingredient",
+            "5": "Select a vegetarian lasagna recipe that meets the criteria",
+            "6": "Read through the recipe ingredients and instructions",
+            "7": "Note down the ingredients and steps or take a screenshot for reference"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.1
+    }
+]

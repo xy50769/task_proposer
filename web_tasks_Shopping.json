@@ -1,0 +1,21 @@
+[
+    {
+        "task": "Search for wireless headphones and filter the results to show only those with a 4-star rating and above. List the top 3 options displayed.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "sending an email"
+        ],
+        "domain": "Shopping",
+        "steps": {
+            "1": "Type 'wireless headphones' in the search bar and press Enter.",
+            "2": "Click on the filter option for '4 Stars & Up' on the left sidebar.",
+            "3": "Scroll to view the results.",
+            "4": "Answer the first 3 options displayed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.1
+    }
+]

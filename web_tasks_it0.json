@@ -1,0 +1,3136 @@
+[
+    {
+        "task": "Find a gluten-free chocolate chip cookie recipe with at least 50 reviews and a rating of at least 4 stars on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "sending an email"
+        ],
+        "domain": [
+            "Diet"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'gluten-free chocolate chip cookies' in the search bar and press enter.",
+            "3": "Filter the results by selecting recipes with at least 50 reviews and a rating of at least 4 stars.",
+            "4": "Click on a recipe that meets the criteria."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for a recipe for a quick and easy chicken stir-fry on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "steps": {
+            "1": "Go to the homepage of Allrecipes.",
+            "2": "Type 'quick easy chicken stir-fry' in the search bar.",
+            "3": "Click on the search button.",
+            "4": "Scroll through the results to find a suitable recipe."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for a recipe for Chicken Alfredo on Allrecipes that has at least 100 reviews and an average rating of 4 stars or higher. List the main ingredients required for the dish.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Diet"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'Chicken Alfredo' in the search bar and press enter.",
+            "3": "Filter the results to show recipes with at least 100 reviews and 4 stars or higher.",
+            "4": "Click on the recipe to view the main ingredients."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find a recipe for spaghetti carbonara with at least 50 reviews and a rating of 4 stars or higher on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Diet"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Use the search bar to type 'spaghetti carbonara' and hit enter.",
+            "3": "Apply filters for reviews (minimum 50) and rating (at least 4 stars).",
+            "4": "Click on a recipe that matches the criteria."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a quick and easy chicken stir-fry recipe that takes less than 30 minutes to prepare on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying",
+            "booking"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'quick chicken stir-fry' in the search bar and press enter.",
+            "3": "Scroll through the search results to find a recipe that indicates a preparation time of less than 30 minutes.",
+            "4": "Click on the chosen recipe to view the details."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a recipe for spaghetti carbonara and retrieve the ingredients and cooking instructions on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "other"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'spaghetti carbonara' in the search bar and press Enter.",
+            "3": "Click on the first recipe from the search results.",
+            "4": "Scroll down to view the ingredients and preparation steps."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a recipe for chocolate chip cookies, note down the key ingredients, and check the total preparation and cook time as mentioned on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching for recipes"
+        ],
+        "domain": [
+            "Diet"
+        ],
+        "steps": {
+            "1": "Go to Allrecipes homepage.",
+            "2": "Type 'chocolate chip cookies' in the search bar and press Enter.",
+            "3": "Click on the highest-rated recipe from the search results.",
+            "4": "Scroll down to view the key ingredients and total preparation and cook time."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for a recipe for Chicken Alfredo that can be prepared in under 30 minutes and has at least a 4-star rating on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Diet"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'Chicken Alfredo' in the search bar and press Enter.",
+            "3": "Use the filter options to set the preparation time to '30 minutes or less' and the rating to '4 stars and up'.",
+            "4": "Click on a recipe that meets the criteria."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find a popular Chicken Recipe with more than 500 reviews and a rating above 4 stars. Compile a shopping list of ingredients for this recipe on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 8,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Health",
+            "Diet",
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'Chicken' in the search bar and hit enter.",
+            "3": "Scroll through the results and look for a recipe with more than 500 reviews and a rating above 4 stars.",
+            "4": "Click on the selected Chicken recipe to view the details.",
+            "5": "Scroll down to the ingredients section.",
+            "6": "Create a shopping list by noting down all the ingredients listed.",
+            "7": "Optionally, take a screenshot of the recipe and ingredients for reference.",
+            "8": "Go back to the homepage or exit."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find a gluten-free chocolate cake recipe that has at least a five-star rating and more than 300 reviews on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "Other"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'gluten-free chocolate cake' in the search bar and hit enter.",
+            "3": "Use the filters to select recipes with a rating of at least 5 stars.",
+            "4": "Sort the results to show recipes with over 300 reviews.",
+            "5": "Scroll through the filtered recipes to find the one that meets the criteria.",
+            "6": "Click on the recipe to view its details.",
+            "7": "Save the recipe for future reference."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for wireless headphones priced between $50 and $150 on Amazon. Then identify one of these wireless headphones with at least 15,000 reviews and a rating higher than 4 stars.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Amazon homepage.",
+            "2": "Type 'wireless headphones' in the search bar and press Enter.",
+            "3": "Use the filters to set the price range between $50 and $150.",
+            "4": "Scroll through the results to find headphones with at least 15,000 reviews and a rating above 4 stars."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a used PlayStation 4 on Amazon, then filter the results by 'Used - Acceptable', and identify the cheapest option available that is 'Used - Acceptable'.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "booking",
+            "sending an email"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Amazon homepage.",
+            "2": "Type 'used PlayStation 4' in the search bar and press enter.",
+            "3": "Apply the filter for 'Used - Acceptable'.",
+            "4": "Look for the cheapest item listed as 'Used - Acceptable'."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for a pair of wireless earbuds with noise cancellation feature and rated above 4 stars on Amazon",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Amazon homepage.",
+            "2": "Type 'wireless earbuds noise cancellation' in the search bar.",
+            "3": "Press 'Enter' to execute the search.",
+            "4": "Filter results to show only items rated above 4 stars."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for Bluetooth headphones under $100 and add the highest-rated option to the cart on Amazon.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Amazon homepage.",
+            "2": "Type 'Bluetooth headphones' in the search bar and press Enter.",
+            "3": "Sort the results by 'Average Customer Review'.",
+            "4": "Click on the highest-rated product and add it to the cart."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for a Bluetooth speaker and add it to the cart on Amazon.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the search bar on the homepage.",
+            "2": "Type 'Bluetooth speaker' and press enter.",
+            "3": "Click on the first product from the search results.",
+            "4": "Click on 'Add to Cart'."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a laptop with at least 16GB RAM and an Intel i7 processor on Amazon.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to Amazon homepage.",
+            "2": "Type 'laptop with 16GB RAM Intel i7' in the search bar.",
+            "3": "Click the search button.",
+            "4": "Scroll through the search results to view available options."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for men's running shoes on Amazon and filter the results to show only those that are available in size 10 and have a rating of at least 4 stars.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying",
+            "browsing"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to Amazon homepage",
+            "2": "Type 'men's running shoes' in the search bar and hit enter",
+            "3": "Select the filters for size 10 and 4 stars or higher",
+            "4": "View the filtered results"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for wireless headphones and filter the results to show only those with a 4-star rating or higher. Then, list the top 3 options available on Amazon.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing",
+            "data extraction"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Amazon homepage.",
+            "2": "Type 'wireless headphones' in the search bar and click the search icon.",
+            "3": "Filter the results by selecting the 4-star rating or higher option.",
+            "4": "Record the names and prices of the top 3 wireless headphones displayed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a laptop bag on Amazon that is waterproof and can hold a laptop of up to 15 inches.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": "7",
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "data extraction",
+            "booking"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Amazon homepage.",
+            "2": "Type 'waterproof laptop bag 15 inches' into the search bar.",
+            "3": "Press the 'Enter' key to initiate the search.",
+            "4": "Scroll through the search results to find relevant options.",
+            "5": "Click on a listing that meets the criteria.",
+            "6": "Review the product details to confirm it is waterproof and fits a 15-inch laptop.",
+            "7": "Take a screenshot of the product page."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Locate and select the lowest-priced wireless headphones on Amazon that have at least 4 stars rating and are eligible for Prime shipping. Provide only the name and price of the cheapest option.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching",
+            "buying"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Amazon homepage.",
+            "2": "Type 'wireless headphones' in the search bar and click the search icon.",
+            "3": "Filter the results by selecting '4 Stars & Up' in the ratings section.",
+            "4": "Check the 'Prime' checkbox to filter for Prime eligible items.",
+            "5": "Sort the results by 'Price: Low to High'.",
+            "6": "Identify the cheapest option and note its name and price.",
+            "7": "Provide the name and price of the cheapest wireless headphones."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Visit the Apple website and navigate to the iPhone section to view the latest models and their specifications.",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Apple homepage.",
+            "2": "Click on the 'iPhone' link in the top navigation bar.",
+            "3": "Scroll down to view the latest iPhone models.",
+            "4": "Hover over each model to see specifications like price and screen size."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Check the specifications and pricing for the latest MacBook models directly from Apple's website.",
+        "start_url": "https://www.apple.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Navigate to the Apple homepage.",
+            "2": "Click on the 'Mac' tab in the top navigation bar.",
+            "3": "Select 'MacBook Air' or 'MacBook Pro' from the dropdown menu.",
+            "4": "Scroll down to view the specifications and pricing."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the specifications for the latest MacBook model on Apple.",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "searching"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Apple homepage.",
+            "2": "Click on the 'Mac' tab in the navigation bar.",
+            "3": "Select the latest MacBook model from the list of products.",
+            "4": "Scroll down to view the specifications."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the specifications and features of the latest iPhone models on Apple's website.",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Apple homepage.",
+            "2": "Click on the 'iPhone' tab in the navigation menu.",
+            "3": "Select the latest iPhone model from the list.",
+            "4": "Scroll down to view the specifications and features."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the specifications of the latest iPhone model on Apple",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Apple homepage.",
+            "2": "Scroll down to the 'iPhone' section.",
+            "3": "Click on the link for the latest iPhone model.",
+            "4": "Scroll to view the specifications."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Check the Apple Store for the availability of the latest iPhone model on Apple",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Apple homepage.",
+            "2": "Click on 'iPhone' in the navigation menu.",
+            "3": "Select the latest iPhone model from the list.",
+            "4": "Scroll to check availability details."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find and summarize the features of the latest MacBook Air model available on Apple's website, including its design, battery life, and processor specifications.",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing",
+            "buying"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Apple website.",
+            "2": "Navigate to the Mac section from the main menu.",
+            "3": "Click on the MacBook Air model to view its specifications.",
+            "4": "Read and summarize the features listed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.85
+    },
+    {
+        "task": "What is the price of an iPhone 15 Pro Max with 512GB storage on Apple?",
+        "start_url": "https://www.apple.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Apple website.",
+            "2": "Navigate to the iPhone section.",
+            "3": "Select the iPhone 15 Pro Max model.",
+            "4": "Scroll down to find the price for the 512GB storage option."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Check the latest updates on Apple Music features and verify their availability on the iPhone 12.",
+        "start_url": "https://www.apple.com/apple-music/",
+        "max_steps": "7",
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "data extraction",
+            "sending an email"
+        ],
+        "domain": [
+            "Entertainment"
+        ],
+        "steps": {
+            "1": "Go to the Apple Music page from the Apple website.",
+            "2": "Scroll to find the latest updates or features section.",
+            "3": "Click on the link for detailed information about new features.",
+            "4": "Read through the features and note any that mention compatibility.",
+            "5": "Search for compatibility information related to the iPhone 12.",
+            "6": "Confirm the compatibility details provided.",
+            "7": "Take a screenshot of the relevant information."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Check the current availability of iPhones on Apple and list the available models.",
+        "start_url": "https://www.apple.com/",
+        "max_steps": "8",
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Shopping"
+        ],
+        "steps": {
+            "1": "Go to the Apple website.",
+            "2": "Hover over the 'iPhone' tab in the top menu.",
+            "3": "Click on 'iPhone' from the dropdown menu.",
+            "4": "Scroll down to view the available iPhone models.",
+            "5": "Note the names of the available models listed.",
+            "6": "Look for any additional information on colors or storage options.",
+            "7": "Click on each model for more details if necessary.",
+            "8": "Summarize the available models and options."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for the latest papers in the field of 'Machine Learning' on ArXiv and display the title of the first result.",
+        "start_url": "https://arxiv.org/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the ArXiv homepage.",
+            "2": "Type 'Machine Learning' in the search bar and press enter.",
+            "3": "Scroll to the first result on the search results page.",
+            "4": "Hover over the title of the first paper to view it."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for recent papers on artificial intelligence published on ArXiv in the past week.",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "sending an email"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the ArXiv homepage.",
+            "2": "Type 'artificial intelligence' in the search bar.",
+            "3": "Click the search button.",
+            "4": "Scroll through the results to find papers from the past week."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for the most recent paper on quantum computing published on ArXiv in the past week.",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "sending an email",
+            "booking"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the ArXiv website.",
+            "2": "Use the search bar to enter 'quantum computing'.",
+            "3": "Filter results to show papers published within the last week.",
+            "4": "Click on the title of the most recent paper to view it."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": null
+    },
+    {
+        "task": "Search for the latest research papers on Quantum Computing. How many papers have been published in the last week? on ArXiv",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the ArXiv homepage.",
+            "2": "Type 'Quantum Computing' in the search bar and hit Enter.",
+            "3": "Filter the results to show papers from the last week.",
+            "4": "Count the number of papers displayed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find the latest research paper on 'Quantum Computing' published in the Computer Science section of ArXiv. Provide the title of the paper, the authors, and a brief summary of the abstract.",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the ArXiv homepage.",
+            "2": "Navigate to the Computer Science section.",
+            "3": "Search for 'Quantum Computing'.",
+            "4": "Select the most recent paper and note its title, authors, and abstract."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for the latest research paper on quantum computing in the Physics category on ArXiv.",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the ArXiv homepage.",
+            "2": "Click on the 'Search' bar.",
+            "3": "Type 'quantum computing' and hit Enter.",
+            "4": "Scroll through the results to find the most recent paper."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the most recent research papers on machine learning on ArXiv",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "Education"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Click on the search bar",
+            "2": "Type 'machine learning' in the search bar",
+            "3": "Press Enter to view the search results",
+            "4": "Scroll through the search results to find the most recent papers"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the most recent papers on 'machine learning' on ArXiv",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Type 'machine learning' in the search bar",
+            "2": "Click on the search icon",
+            "3": "Scroll down to view the search results",
+            "4": "Click on the most recent paper title",
+            "5": "Read the abstract of the paper"
+        },
+        "final_action": "<screenshot_only>",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "What are the main findings of the paper \"A Survey on Deep Learning for Image Classification\" on ArXiv?",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the ArXiv website.",
+            "2": "Use the search bar to type the title of the paper: 'A Survey on Deep Learning for Image Classification'.",
+            "3": "Click on the search icon to execute the search.",
+            "4": "Locate the paper in the search results and click on its title to open it.",
+            "5": "Scroll through the paper to find the section that summarizes the main findings.",
+            "6": "Read the section to extract the main findings of the paper.",
+            "7": "Take a note of the main findings for reference."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for papers related to \"machine learning\" submitted under the Computer Science category on ArXiv. Count the total number of results found. What are the results if the search is conducted across all categories on ArXiv?",
+        "start_url": "https://arxiv.org/",
+        "max_steps": 8,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching",
+            "browsing"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Navigate to the ArXiv homepage by clicking on the start_url.",
+            "2": "Locate the search bar on the homepage and type 'machine learning'.",
+            "3": "Select the Computer Science category from the available options.",
+            "4": "Click on the search button to initiate the search.",
+            "5": "Count the total number of results displayed for the search in the Computer Science category.",
+            "6": "Clear the search bar and select the option to search across all categories.",
+            "7": "Click on the search button again to view results across all categories.",
+            "8": "Count the total number of results displayed for the search across all categories."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Check the latest news article in the Health section on BBC News.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing",
+            "sending an email"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "steps": {
+            "1": "Click on the 'Health' section from the top navigation menu.",
+            "2": "Scroll down to view the latest articles.",
+            "3": "Click on the top article to read it.",
+            "4": "Wait for the article to load."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for the latest news article on climate change on the BBC News website.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the BBC News homepage.",
+            "2": "Locate the search bar at the top of the page.",
+            "3": "Type 'climate change' in the search bar.",
+            "4": "Press the Enter key to view the search results."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Check the latest headlines in the World News section on BBC News.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "searching"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Click on the 'World' tab in the news navigation bar.",
+            "2": "Scroll through the latest headlines displayed.",
+            "3": "Hover over any article for a brief summary.",
+            "4": "Click on the headline of an article to read more."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find the latest news article on climate change on BBC News and summarize the key points mentioned in the article.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "Other"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the BBC News homepage.",
+            "2": "Click on the 'Environment' section.",
+            "3": "Scroll to find the latest article on climate change.",
+            "4": "Read and summarize the key points of the article."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find the latest news article on climate change on BBC News and note the publication date.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the BBC News homepage.",
+            "2": "Use the search bar to type 'climate change' and press enter.",
+            "3": "Click on the latest article related to climate change from the search results.",
+            "4": "Note the publication date displayed at the top of the article."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Locate the most recent article on the effects of climate change on agriculture in the UK on BBC News and summarize its key findings.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "booking",
+            "sending an email"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the BBC News homepage.",
+            "2": "Scroll down to find the latest articles.",
+            "3": "Click on the article related to climate change and agriculture.",
+            "4": "Summarize the central points of the article."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Locate the article titled \"UK economy: What you need to know\" on BBC News and summarize the key points regarding the current state of the UK economy.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the BBC News homepage.",
+            "2": "Use the search bar to find the article titled \"UK economy: What you need to know\".",
+            "3": "Click on the article link to open it.",
+            "4": "Read the article and summarize the key points."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the latest technology news article on BBC News and summarize its main points.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay",
+            "Technology"
+        ],
+        "steps": {
+            "1": "Click on the 'Technology' section in the navigation menu.",
+            "2": "Scroll to the top article listed under Technology.",
+            "3": "Click on the article to open it.",
+            "4": "Read the article and summarize the key points."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.85
+    },
+    {
+        "task": "Find an article about climate change under Science. What is the main point discussed in the article? on BBC News",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Health",
+        "steps": {
+            "1": "Click on the 'Menu' button",
+            "2": "Navigate to the 'Science' section",
+            "3": "Scroll down to find articles about climate change",
+            "4": "Click on an article related to climate change",
+            "5": "Read the article to identify the main point discussed",
+            "6": "Take a screenshot of the main point",
+            "7": "Submit the screenshot"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find and read the latest article on the impact of climate change on agriculture published on BBC News in the past week.",
+        "start_url": "https://www.bbc.com/news/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching",
+            "booking"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the BBC News website.",
+            "2": "Use the search bar to enter 'climate change agriculture'.",
+            "3": "Press Enter to initiate the search.",
+            "4": "Scroll through the search results to find articles published within the last week.",
+            "5": "Click on the most relevant article to open it.",
+            "6": "Read the article content.",
+            "7": "Scroll to the bottom of the article for additional information or related articles."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a hotel in New York City from November 5th to November 10th for 2 adults and 1 room on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "booking"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Booking website.",
+            "2": "Enter 'New York City' in the destination field.",
+            "3": "Select 'November 5th' as the check-in date and 'November 10th' as the check-out date.",
+            "4": "Specify '2 adults' and '1 room' in the guest settings."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find a hotel in Paris with a pool and a rating of at least 8.0 for the dates 15/11/2024 - 16/11/2024 on Booking",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "buying"
+        ],
+        "domain": [
+            "Travel",
+            "Other"
+        ],
+        "steps": {
+            "1": "Navigate to the Booking homepage.",
+            "2": "Enter 'Paris' in the destination search bar.",
+            "3": "Select the dates '15/11/2024' to '16/11/2024'.",
+            "4": "Apply the filter for hotels with a pool and a rating of at least 8.0."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Search for hotels in Paris for November 15-16 on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing",
+            "booking"
+        ],
+        "domain": [
+            "Travel",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Booking homepage.",
+            "2": "Enter 'Paris' in the destination search bar.",
+            "3": "Select the check-in date as November 15 and check-out date as November 16.",
+            "4": "Click the search button to find hotels."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for hotels in Paris for 2 adults with a maximum price of 300 euros per night for a stay of 3 nights starting from November 15. You should navigate the site and provide at least 3 hotel recommendations on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "booking"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Booking website.",
+            "2": "Type 'Paris' in the destination search bar.",
+            "3": "Select the check-in date as November 15 and check-out date as November 18.",
+            "4": "Click the search button to view available hotels."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Find and view hotels in Paris that offer free Wi-Fi and a swimming pool for the dates of November 5 to November 10 on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "booking",
+            "browsing"
+        ],
+        "domain": [
+            "Travel",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Booking website.",
+            "2": "Enter 'Paris' in the destination search bar.",
+            "3": "Select the check-in date as November 5 and check-out date as November 10.",
+            "4": "Click on the 'Search' button."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for hotels in Paris that allow pets and have free Wi-Fi from Nov 1st - Nov 5th on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "booking"
+        ],
+        "domain": [
+            "Travel",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Booking homepage.",
+            "2": "Enter 'Paris' in the search bar.",
+            "3": "Set the check-in date to Nov 1st and check-out date to Nov 5th.",
+            "4": "Click the 'Search' button."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Search for a hotel in Paris with a swimming pool for the dates of June 10 to June 15, 2024, on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "sending an email"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the website 'https://www.booking.com/'",
+            "2": "Type 'Paris' in the search bar and select it from the dropdown.",
+            "3": "Select the check-in date as 'June 10, 2024' and check-out date as 'June 15, 2024'.",
+            "4": "Check the option for 'Swimming Pool' under amenities."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Search for a hotel in New York City with a rating of 4 stars or higher for 2 nights starting from November 10th on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Booking website.",
+            "2": "Type 'New York City' in the search bar.",
+            "3": "Select the dates for the stay: check-in on November 10th and check-out on November 12th.",
+            "4": "Click on the search button."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a hotel in Paris for a two-night stay from 15 Nov, accommodating 1 adult and 1 child. Provide the name of the hotel and the total price for the stay on Booking.",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "booking"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Booking website.",
+            "2": "Enter 'Paris' in the search bar.",
+            "3": "Select '15 Nov' as the check-in date and '17 Nov' as the check-out date.",
+            "4": "Choose '2 guests' (1 adult, 1 child) in the guest selection.",
+            "5": "Click on the search button.",
+            "6": "Sort the results by price (low to high).",
+            "7": "Note the name of the cheapest hotel and its total price."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a hotel in Paris from November 5-10 that is within a budget of €300 on Booking",
+        "start_url": "https://www.booking.com/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching",
+            "browsing"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the start_url",
+            "2": "Type 'Paris' in the destination search bar",
+            "3": "Select the check-in date as November 5",
+            "4": "Select the check-out date as November 10",
+            "5": "Click on the search button",
+            "6": "Use the price filter to set a maximum price of €300",
+            "7": "Browse the list of available hotels"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Learn the UK and US pronunciation of the word \"serendipity\", and find one example sentence that reflects its use in context on Cambridge Dictionary.",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the Cambridge Dictionary homepage.",
+            "2": "Type 'serendipity' in the search bar and press Enter.",
+            "3": "Click on the audio icons to listen to the UK and US pronunciations.",
+            "4": "Scroll down to find an example sentence that uses the word."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Look up the word \"happy\" in Cambridge Dictionary and list its synonyms.",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "searching"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Cambridge Dictionary website.",
+            "2": "Type 'happy' in the search bar.",
+            "3": "Click on the search icon.",
+            "4": "Scroll down to find the synonyms listed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Look up the pronunciation and definition of the word \"sustainability\" on the Cambridge Dictionary.",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Navigate to the search bar on the Cambridge Dictionary website.",
+            "2": "Type in the word 'sustainability' and press Enter to search.",
+            "3": "Click on the word 'sustainability' from the search results.",
+            "4": "View the pronunciation and definition of the word on the page."
+        },
+        "final_action": "<submit>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the pronunciation, definition, and a sample sentence for the word 'serendipity' on Cambridge Dictionary",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Navigate to the search bar on the Cambridge Dictionary website.",
+            "2": "Type 'serendipity' in the search bar.",
+            "3": "Click on the search icon to look up the word.",
+            "4": "Locate and click on the result for 'serendipity'.",
+            "5": "Find and listen to the pronunciation of the word.",
+            "6": "Read the definition and a sample sentence for 'serendipity'."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Search for the word \"technology\" on the Cambridge Dictionary, what is the translation of technology into Spanish and German in the dictionary on Cambridge Dictionary",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Navigate to the Cambridge Dictionary website",
+            "2": "Type 'technology' in the search bar",
+            "3": "Click on the search icon",
+            "4": "Find the translation of 'technology' into Spanish",
+            "5": "Find the translation of 'technology' into German"
+        },
+        "final_action": "<submit/screenshot_only>",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Find the definition and pronunciation of the word \"ubiquitous\" on Cambridge Dictionary",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Type \"ubiquitous\" in the search bar",
+            "2": "Click on the search icon",
+            "3": "Navigate to the definition section",
+            "4": "Listen to the pronunciation"
+        },
+        "final_action": "<submit/screenshot_only>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Look up the pronunciation, definition, and example sentence for the word \"serendipity\" in UK and US English on Cambridge Dictionary",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Type 'serendipity' in the search bar",
+            "2": "Click on the search icon",
+            "3": "Navigate to the 'UK and US English' tab",
+            "4": "Read the pronunciation, definition, and example sentence",
+            "5": "Scroll down to explore more details if needed"
+        },
+        "final_action": "<submit/screenshot_only>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Look up the American pronunciation of the word \"resilience\" and find an example sentence using that word on Cambridge Dictionary",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Type 'resilience' in the search bar",
+            "2": "Click on the search icon",
+            "3": "Scroll down to find the American pronunciation section",
+            "4": "Listen to the pronunciation audio",
+            "5": "Scroll further to find an example sentence with the word 'resilience'",
+            "6": "Read the example sentence"
+        },
+        "final_action": "<submit/screenshot_only>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the definition, pronunciation, and usage examples of the term \"nostalgia\" on Cambridge Dictionary",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Type \"nostalgia\" in the search bar",
+            "2": "Click on the search icon",
+            "3": "Navigate to the definition section",
+            "4": "Listen to the pronunciation of \"nostalgia\"",
+            "5": "Read through the examples of how \"nostalgia\" is used in sentences",
+            "6": "Scroll down to explore related terms or concepts",
+            "7": "Verify the accuracy of the information provided"
+        },
+        "final_action": "<submit/screenshot_only>",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Find the American English pronunciation of the word \"innovate\" and provide the phonetic transcription, then locate a synonym for this word on Cambridge Dictionary",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 6,
+        "task_difficulty": "medium",
+        "workflow_domain": "Education",
+        "domain": "Education",
+        "steps": {
+            "1": "Type 'innovate' in the search bar",
+            "2": "Click on the 'innovate' result",
+            "3": "Scroll down to find the American English pronunciation",
+            "4": "Write down the phonetic transcription",
+            "5": "Look for a synonym for the word 'innovate'",
+            "6": "Note down the synonym"
+        },
+        "final_action": "<submit>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Enroll in a beginner-level online course about Data Science, suitable for someone who has no prior experience in the field on Coursera",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "Education"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Click on the search bar",
+            "2": "Type 'Data Science' in the search bar",
+            "3": "Press Enter to search for courses",
+            "4": "Scroll down to view beginner-level courses",
+            "5": "Click on a beginner-level Data Science course",
+            "6": "Enroll in the selected course"
+        },
+        "final_action": "<submit>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Enroll in a free course on Coursera related to 'Python Programming'. Scroll to find a course with the Free tag. What language is the course taught in?",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Scroll down the homepage",
+            "2": "Locate a course related to 'Python Programming' with the Free tag",
+            "3": "Click on the course to view details",
+            "4": "Check the language in which the course is taught",
+            "5": "Note the language of instruction",
+            "6": "End task"
+        },
+        "final_action": "<submit>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Enroll in a course on Coursera that covers Python Programming for Beginners with a rating of 4.8 or higher. Provide the course title, the institution offering it, and the total number of enrolled students.",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Click on the search bar",
+            "2": "Type 'Python Programming for Beginners'",
+            "3": "Click on the search icon",
+            "4": "Select a course with a rating of 4.8 or higher",
+            "5": "Note down the course title, institution, and total enrolled students",
+            "6": "Enroll in the selected course"
+        },
+        "final_action": "<submit>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Enroll in the course 'AI for Healthcare' on Coursera and check the course duration and number of quizzes in Assessments",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Search for 'AI for Healthcare' course",
+            "2": "Click on the course to view details",
+            "3": "Note the course duration",
+            "4": "Check the number of quizzes in Assessments",
+            "5": "Enroll in the course",
+            "6": "Verify enrollment and details"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find a course on Coursera that covers the basics of Python programming, list the course title and a brief description of the topics covered.",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying"
+        ],
+        "domain": "Education",
+        "steps": {},
+        "final_action": "<submit/screenshot_only>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Enroll in a new course on Coursera related to Artificial Intelligence, sort the courses by relevance, find the first course, and identify the instructor. on Coursera",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "Education"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Click on the search bar",
+            "2": "Type 'Artificial Intelligence' and press Enter",
+            "3": "Sort the courses by relevance",
+            "4": "Click on the first course displayed",
+            "5": "Identify the instructor of the course",
+            "6": "Note down the instructor's name"
+        },
+        "final_action": "<screenshot_only>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Enroll in the 'Business Process Management' course on Coursera with a rating of 4.7.",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Search for 'Business Process Management' course",
+            "2": "Select the course with a rating of 4.7",
+            "3": "Click on 'Enroll' button",
+            "4": "Complete the enrollment process"
+        },
+        "final_action": "<screenshot_only>",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Enroll in a Coursera course on machine learning basics that has a duration of less than 10 hours to complete and has been rated 4+ stars by participants on Coursera",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Click on the 'Browse' tab",
+            "2": "Type 'machine learning basics' in the search bar",
+            "3": "Select a course with less than 10 hours duration and 4+ stars rating",
+            "4": "Click on 'Enroll' to join the course",
+            "5": "Follow the enrollment instructions",
+            "6": "Verify that you have successfully enrolled in the course"
+        },
+        "final_action": "<submit>",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Enroll in a Machine Learning Specialization on Coursera and explore the syllabus of the first course in the Specialization.",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 8,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Click on the search bar",
+            "2": "Type 'Machine Learning Specialization' and press Enter",
+            "3": "Click on the desired specialization",
+            "4": "Enroll in the specialization",
+            "5": "Navigate to the first course in the specialization",
+            "6": "Click on the course to view the syllabus",
+            "7": "Scroll through the syllabus to explore the topics covered",
+            "8": "Take a screenshot of the syllabus for reference"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.1
+    },
+    {
+        "task": "Enroll in a beginner-level online course about 'Machine Learning' which lasts 4-6 weeks, and is provided by a top university on Coursera",
+        "start_url": "https://www.coursera.org/",
+        "max_steps": 8,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "steps": {
+            "1": "Click on the search bar",
+            "2": "Type 'Machine Learning' in the search bar",
+            "3": "Click on the search icon",
+            "4": "Filter the course duration to 4-6 weeks",
+            "5": "Select a course provided by a top university",
+            "6": "Enroll in the selected course",
+            "7": "Complete the enrollment process",
+            "8": "Verify successful enrollment"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the upcoming schedule of the Los Angeles Lakers on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'NBA' tab in the top navigation bar",
+            "2": "Scroll down to find the 'Los Angeles Lakers' team section",
+            "3": "Click on the 'Schedule' link within the team section",
+            "4": "View the upcoming games schedule for the Los Angeles Lakers",
+            "5": "Note down the dates and opponents for the upcoming games"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the latest NBA scores and highlights for the Milwaukee Bucks game on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Navigate to the NBA section on ESPN",
+            "2": "Look for the Milwaukee Bucks game scores",
+            "3": "Click on the game to view the highlights",
+            "4": "Watch the main highlight of the game",
+            "5": "Exit the highlight and view the final score"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the latest standings of the MLB teams on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'MLB' tab on the top navigation bar",
+            "2": "Scroll down to view the current standings of MLB teams",
+            "3": "Note down the positions of the teams in the standings",
+            "4": "Identify the team with the highest position",
+            "5": "Take a screenshot of the standings for reference"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find out the latest NFL game scores and identify the team with the highest score. Note down the final score of the winning team and the key player who contributed the most points on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'NFL' tab on the top navigation bar",
+            "2": "Scroll down to find the latest game scores",
+            "3": "Identify the team with the highest score",
+            "4": "Note down the final score of the winning team",
+            "5": "Click on the player who contributed the most points for the winning team",
+            "6": "Take a screenshot of the player's profile showing their points contribution"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the latest NBA standings on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 6,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'NBA' tab in the top menu",
+            "2": "Scroll down to find the 'Standings' section",
+            "3": "Click on the 'Standings' section",
+            "4": "Locate and note down the latest standings information",
+            "5": "Scroll back up to the top of the page",
+            "6": "Take a screenshot of the NBA standings"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the latest scores and updates for the NFL games on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'NFL' tab in the top navigation bar",
+            "2": "Scroll down to view the latest scores and updates",
+            "3": "Click on a specific game to see detailed information",
+            "4": "Scroll further for more game details"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Check ESPN for the latest news updates on NBA trades and player transfers.",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'NBA' tab on the top navigation bar.",
+            "2": "Scroll down to find the section on NBA news.",
+            "3": "Click on the news article related to trades and transfers.",
+            "4": "Read the latest updates on player movements.",
+            "5": "Scroll back to the top to explore more news."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the schedule for upcoming NBA games on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'NBA' tab in the top menu",
+            "2": "Scroll down to find the 'Schedule' section",
+            "3": "Click on the 'Schedule' link",
+            "4": "View the list of upcoming NBA games",
+            "5": "Note down the schedule for future reference"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.2
+    },
+    {
+        "task": "Find the upcoming schedule for NBA games on ESPN and identify the teams playing in the next match.",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 6,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on the 'NBA' tab in the top navigation menu.",
+            "2": "Scroll down to find the schedule section for upcoming games.",
+            "3": "Identify the next NBA game and note down the teams playing.",
+            "4": "Click on the game to view more details if needed.",
+            "5": "Take note of the date and time of the upcoming match.",
+            "6": "Navigate back to the main page."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the latest news article on the NFL and summarize the key points from the article as presented on ESPN.",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Entertainment"
+        ],
+        "steps": {
+            "1": "Navigate to the ESPN homepage.",
+            "2": "Click on the 'NFL' section from the top menu.",
+            "3": "Scroll to find the latest news articles.",
+            "4": "Click on the most recent article headline.",
+            "5": "Read the article to gather key points.",
+            "6": "Summarize the key points from the article.",
+            "7": "Return to the homepage."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for a repository on GitHub that contains a Python script and has at least 5 stars.",
+        "start_url": "https://github.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "sending an email"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to GitHub homepage.",
+            "2": "Type 'Python' in the search bar and press Enter.",
+            "3": "Use the filters to select 'Stars' and sort by highest.",
+            "4": "Click on the first repository listed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": null
+    },
+    {
+        "task": "Find a public repository on GitHub related to web development that includes a README file and has been updated in the last week.",
+        "start_url": "https://github.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "browsing"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to GitHub homepage",
+            "2": "Use the search bar to type 'web development' and hit Enter",
+            "3": "Filter the results by 'Repositories' and sort by 'Recently updated'",
+            "4": "Look for repositories that have a README file and check their last update date"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for a JavaScript repository on GitHub that has at least 1000 stars and is tagged with 'open-source'.",
+        "start_url": "https://github.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the GitHub homepage.",
+            "2": "Use the search bar to enter 'JavaScript open-source'.",
+            "3": "Filter the results to show repositories with at least 1000 stars.",
+            "4": "Click on one of the repositories that meet the criteria."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find the most starred repositories in the 'JavaScript' programming language on GitHub.",
+        "start_url": "https://github.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the GitHub homepage.",
+            "2": "Click on 'Explore' from the top navigation bar.",
+            "3": "Select 'Trending' from the dropdown options.",
+            "4": "Filter the repositories by selecting 'JavaScript' and sort by 'Most stars'."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find a JavaScript project that has been updated recently and list the top two contributors on GitHub.",
+        "start_url": "https://github.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Navigate to GitHub homepage.",
+            "2": "Type 'JavaScript' in the search bar and hit Enter.",
+            "3": "Use the filters to sort by 'Recently updated'.",
+            "4": "Click on the first project and find the top two contributors."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find the official GitHub repository for TensorFlow and show me what files the repo changed in the most recent commit on GitHub.",
+        "start_url": "https://github.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Education"
+        ],
+        "steps": {
+            "1": "Go to the GitHub homepage.",
+            "2": "Type 'TensorFlow' in the search bar and press Enter.",
+            "3": "Click on the official TensorFlow repository from the search results.",
+            "4": "Click on the 'Commits' tab to view the most recent commit and the changed files."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the latest stable release of the React library and note its release date on GitHub.",
+        "start_url": "https://github.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the GitHub homepage.",
+            "2": "Type 'React' in the search bar and press Enter.",
+            "3": "Click on the first repository titled 'facebook/react'.",
+            "4": "Navigate to the 'Releases' section and note the latest stable release and its date."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find a popular open-source project related to 'machine learning' on GitHub and note down the project with the highest number of stars.",
+        "start_url": "https://github.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying",
+            "booking"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the GitHub homepage.",
+            "2": "Type 'machine learning' in the search bar and press Enter.",
+            "3": "Click on the 'Repositories' tab to filter the search results.",
+            "4": "Identify the project with the highest number of stars from the list."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Compare the features of the Enterprise version and Team version of GitHub in terms of package storage.",
+        "start_url": "https://github.com/",
+        "max_steps": 6,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "buying",
+            "booking"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the GitHub homepage.",
+            "2": "Scroll down to the footer and click on 'Pricing'.",
+            "3": "On the Pricing page, locate the section that compares different plans.",
+            "4": "Hover over the Enterprise version to view its details.",
+            "5": "Hover over the Team version to view its details.",
+            "6": "Note down the package storage details for both versions and compare them."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for the lowest fare for a round-trip flight for 2 adults from LAX to Tokyo on Dec. 15 returning on Dec. 22 on Google Flights",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website using the provided URL.",
+            "2": "Enter 'LAX' in the departure city field.",
+            "3": "Enter 'Tokyo' in the destination city field.",
+            "4": "Select the departure date as 'Dec. 15' and return date as 'Dec. 22', then click 'Search'."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a one-way flight from Los Angeles to Chicago on December 5, 2024, using Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Input 'Los Angeles' in the departure city field.",
+            "3": "Input 'Chicago' in the destination city field.",
+            "4": "Select the date 'December 5, 2024' as the departure date."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a round trip flight from Los Angeles to Miami for December 10th to December 15th and display the total travel time on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'Los Angeles' as the departure city.",
+            "3": "Enter 'Miami' as the destination city.",
+            "4": "Select the departure date as December 10th and the return date as December 15th."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a flight on November 5 and return on November 12 from New York to London and Select Economy Class on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing",
+            "data extraction"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'New York' in the departure field.",
+            "3": "Enter 'London' in the destination field.",
+            "4": "Select the dates November 5 and November 12, and choose 'Economy' class."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for round-trip flights from New York to Paris departing on 15 November and returning on 22 November on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'New York' in the departure city field.",
+            "3": "Enter 'Paris' in the arrival city field.",
+            "4": "Select departure date as 15 November and return date as 22 November."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find and view the prices of round-trip flights from Los Angeles to London Heathrow Airport for travel dates from March 10th, 2024, to March 17th, 2024, on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'Los Angeles' as the departure city.",
+            "3": "Enter 'London Heathrow Airport' as the destination city.",
+            "4": "Select the departure date as March 10th, 2024, and the return date as March 17th, 2024."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a round-trip flight from New York City to Los Angeles for 2 Adults that leaves on November 15 and returns on November 22 on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 5,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "booking"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'New York City' in the departure field.",
+            "3": "Enter 'Los Angeles' in the arrival field.",
+            "4": "Select the departure date as November 15 and return date as November 22.",
+            "5": "Click on the search button to view available flights."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a one-way flight from San Francisco to Miami departing on December 15, 2023, using Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'San Francisco' in the departure city field.",
+            "3": "Enter 'Miami' in the destination city field.",
+            "4": "Select the departure date as December 15, 2023."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for a one-way flight from New York to Los Angeles on November 15th and filter for Economy class tickets that are under $500 on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Navigate to Google Flights.",
+            "2": "Input 'New York' as the departure city.",
+            "3": "Input 'Los Angeles' as the arrival city.",
+            "4": "Select the date 'November 15th' and apply the filter for Economy class under $500."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find one-way flights from Los Angeles to Miami on December 10, 2024, using Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "browsing"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'Los Angeles' in the departure city field.",
+            "3": "Enter 'Miami' in the destination city field.",
+            "4": "Select 'December 10, 2024' as the departure date."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for a round-trip flight from Los Angeles to Miami on Dec. 15th and return on Dec. 22nd, ensuring to sort by the lowest price on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "buying",
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'Los Angeles' as the departure city and 'Miami' as the destination city.",
+            "3": "Select 'Dec. 15th' as the departure date and 'Dec. 22nd' as the return date.",
+            "4": "Click on the search button and sort the results by the lowest price."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Find and display one-way flights from New York to London for tomorrow (November 18, 2024) on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Enter 'New York' in the departure city field.",
+            "3": "Enter 'London' in the arrival city field.",
+            "4": "Select 'One-way' and choose the date for tomorrow."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for round-trip flights from San Francisco to Tokyo on Dec. 15th and filter the results to show only flights with the lowest price on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "buying"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights website.",
+            "2": "Type 'San Francisco' in the departure city field.",
+            "3": "Type 'Tokyo' in the destination city field.",
+            "4": "Select the date 'Dec. 15th' for departure and click on the search button."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for round-trip flights from Los Angeles to London for a departure on November 5, 2024, and a return on November 12, 2024, and filter the results to show only non-stop flights on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to Google Flights.",
+            "2": "Enter 'Los Angeles' in the departure city field.",
+            "3": "Enter 'London' in the destination city field.",
+            "4": "Select the departure date as November 5, 2024.",
+            "5": "Select the return date as November 12, 2024.",
+            "6": "Click on the 'Search' button.",
+            "7": "Apply the filter to show only non-stop flights."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for a one-way flight from New York to Los Angeles on December 15th and display the cheapest flight option available on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the start URL.",
+            "2": "Click on the 'Flights' tab if not already selected.",
+            "3": "Type 'New York' in the departure city field.",
+            "4": "Type 'Los Angeles' in the destination city field.",
+            "5": "Select 'December 15th' as the departure date.",
+            "6": "Click the 'Search' button.",
+            "7": "View the cheapest flight option displayed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for one-way flights from Los Angeles to Tokyo on March 15, 2024, and sort the results by the lowest fare on Google Flights.",
+        "start_url": "https://www.google.com/travel/flights/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Flights homepage.",
+            "2": "Enter 'Los Angeles' in the departure city field.",
+            "3": "Enter 'Tokyo' in the destination city field.",
+            "4": "Select 'March 15, 2024' as the departure date.",
+            "5": "Click on the 'Search' button to view flight options.",
+            "6": "Sort the displayed flight results by 'Lowest Price'.",
+            "7": "Review the sorted list of flights for the best fare."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Locate the nearest Starbucks coffee shop in New York City on Google Map.",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the Google Maps website.",
+            "2": "Type 'Starbucks' in the search bar.",
+            "3": "Press Enter to view the search results.",
+            "4": "Identify the nearest Starbucks location on the map."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Locate coffee shops near zip code 10001 on Google Map",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "sending an email",
+            "buying"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Navigate to Google Maps",
+            "2": "Type 'coffee shops' in the search bar",
+            "3": "Enter '10001' as the location",
+            "4": "Press Enter to view the results"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Locate restaurants in San Francisco, CA on Google Map",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to the Google Maps website.",
+            "2": "In the search bar, type 'restaurants in San Francisco, CA'.",
+            "3": "Press the Enter key to initiate the search.",
+            "4": "Browse the search results displayed on the map."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Locate a coffee shop within 3 miles of zip code 10001 on Google Map.",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "browsing"
+        ],
+        "domain": [
+            "Travel",
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the Google Maps website.",
+            "2": "Enter 'coffee shop' in the search bar.",
+            "3": "Type '10001' in the location field.",
+            "4": "Press Enter to view results."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Locate 3 coffee shops in Austin, TX with a rating of at least 4.5 on Google Map.",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Navigate to the start_url.",
+            "2": "Type 'coffee shops in Austin, TX' in the search bar and press Enter.",
+            "3": "Scroll through the list to find coffee shops with a rating of at least 4.5.",
+            "4": "Select 3 coffee shops that meet the rating criteria."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Find the nearest coffee shop to Central Park in New York City on Google Map.",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Navigate to the Google Maps website.",
+            "2": "Type 'Central Park, New York City' in the search bar and press Enter.",
+            "3": "Click on the 'Nearby' option and type 'coffee shop' in the search bar.",
+            "4": "View the list of coffee shops displayed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find directions from Times Square to Central Park on Google Map",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Open Google Maps.",
+            "2": "Type 'Times Square' in the search bar and press Enter.",
+            "3": "Click on 'Directions' and then type 'Central Park' in the destination field.",
+            "4": "View the suggested route and distance."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the shortest driving route from Times Square to the Statue of Liberty on Google Map.",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing",
+            "searching"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Go to Google Maps.",
+            "2": "Type 'Times Square' in the search bar and press Enter.",
+            "3": "Click on 'Directions'.",
+            "4": "Type 'Statue of Liberty' as the destination and view the route."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": null
+    },
+    {
+        "task": "Find a coffee shop near the Art Institute of Chicago that has outdoor seating on Google Map",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching",
+            "booking"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Open the Google Maps website.",
+            "2": "Type 'Art Institute of Chicago' in the search bar and press Enter.",
+            "3": "Click on the search results for 'Art Institute of Chicago'.",
+            "4": "Click on the nearby search option.",
+            "5": "Type 'coffee shop' in the nearby search bar.",
+            "6": "Look for coffee shops that mention outdoor seating in their details.",
+            "7": "Click on a coffee shop to view more information."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Locate the nearest coffee shop to Central Park on Google Map.",
+        "start_url": "https://www.google.com/maps/",
+        "max_steps": 6,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Travel"
+        ],
+        "steps": {
+            "1": "Navigate to the Google Maps website.",
+            "2": "In the search bar, type 'Central Park' and press Enter.",
+            "3": "Once Central Park is displayed on the map, click on the 'Nearby' option.",
+            "4": "Type 'coffee shop' in the nearby search bar and press Enter.",
+            "5": "Review the list of coffee shops that appear on the map.",
+            "6": "Identify the coffee shop that is closest to Central Park."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for the release date of the movie 'Inception' on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to Google Search.",
+            "2": "Type 'Inception movie release date' in the search bar.",
+            "3": "Press Enter to execute the search.",
+            "4": "View the release date displayed in the search results."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for the latest news on climate change on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Type 'latest news on climate change' in the Google Search bar.",
+            "2": "Press 'Enter' to execute the search.",
+            "3": "Scroll through the results to find relevant articles.",
+            "4": "Click on a news article to read more."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the latest news about climate change. Display the first 5 articles on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Type 'latest news about climate change' in the Google Search bar.",
+            "2": "Press 'Enter' to initiate the search.",
+            "3": "Scroll through the search results to view articles.",
+            "4": "Click on the titles of the first 5 articles to view them."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for the current weather in New York City and provide a summary of the forecast for the next three days on Google Search",
+        "start_url": "https://www.google.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Type 'current weather in New York City' in the Google search bar and press Enter.",
+            "2": "View the weather information displayed at the top of the search results.",
+            "3": "Scroll down to find the 3-day forecast summary.",
+            "4": "Read and note the summary of the forecast for the next three days."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    },
+    {
+        "task": "Search for the latest news in technology on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching",
+            "data extraction"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the Google Search homepage.",
+            "2": "Type 'latest technology news' in the search bar.",
+            "3": "Press 'Enter' to initiate the search.",
+            "4": "Scroll through the search results to view the latest news articles."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the current weather in New York City on Google Search",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Type 'current weather New York City' in the Google Search bar.",
+            "2": "Press 'Enter' to execute the search.",
+            "3": "View the weather information displayed at the top of the search results.",
+            "4": "Scroll down if necessary to see additional weather details."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": null
+    },
+    {
+        "task": "Search for information about the nutritional benefits of kale on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "steps": {
+            "1": "Go to the Google Search homepage.",
+            "2": "Type 'nutritional benefits of kale' in the search bar.",
+            "3": "Press Enter to initiate the search.",
+            "4": "View the search results for relevant articles."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "What is the weather forecast for New York City this week? on Google Search",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to Google Search",
+            "2": "Type 'weather forecast New York City' in the search bar",
+            "3": "Press Enter to search",
+            "4": "View the weather forecast results displayed"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Search for the latest news about climate change on Google Search",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Education",
+            "Entertainment",
+            "Health",
+            "Job",
+            "Shopping",
+            "Travel",
+            "Other",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Type 'latest news about climate change' in the Google Search bar",
+            "2": "Press 'Enter' to initiate the search",
+            "3": "Scroll through the search results to find relevant articles",
+            "4": "Click on a news article link to read more"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the current weather in New York City on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the Google Search homepage.",
+            "2": "Type 'current weather in New York City' in the search bar.",
+            "3": "Press Enter to execute the search.",
+            "4": "View the weather information displayed at the top of the search results."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for the article titled '10 Tips for Better Sleep' and summarize the main points listed in the first result on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction"
+        ],
+        "domain": [
+            "Health"
+        ],
+        "steps": {
+            "1": "Navigate to Google Search.",
+            "2": "Type '10 Tips for Better Sleep' in the search bar.",
+            "3": "Click on the first result displayed.",
+            "4": "Read and summarize the main points of the article."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.85
+    },
+    {
+        "task": "search for the weather forecast for the next week in New York City on Google Search",
+        "start_url": "https://www.google.com/",
+        "max_steps": "4",
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Health",
+            "Other",
+            "Travel",
+            "Entertainment",
+            "Education",
+            "Job",
+            "Shopping",
+            "Diet",
+            "Stay"
+        ],
+        "steps": {
+            "1": "Go to the Google Search homepage.",
+            "2": "Type 'New York City weather forecast next week' in the search bar.",
+            "3": "Press Enter to search.",
+            "4": "View the weather forecast displayed on the search results page."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Find the current weather forecast for New York City on Google Search.",
+        "start_url": "https://www.google.com/",
+        "max_steps": 6,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the start URL.",
+            "2": "Type 'current weather forecast New York City' in the search bar.",
+            "3": "Press 'Enter' to execute the search.",
+            "4": "Scroll through the search results to find a reliable weather source.",
+            "5": "Click on the relevant link to view the weather forecast.",
+            "6": "Read the forecast information displayed on the page."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.95
+    },
+    {
+        "task": "Search for the latest news on electric vehicle technology on Google Search",
+        "start_url": "https://www.google.com/",
+        "max_steps": 6,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing",
+            "data extraction"
+        ],
+        "domain": [
+            "Other"
+        ],
+        "steps": {
+            "1": "Go to the Google Search homepage.",
+            "2": "Type 'latest news on electric vehicle technology' into the search bar.",
+            "3": "Press 'Enter' to initiate the search.",
+            "4": "Scroll through the search results to find relevant articles.",
+            "5": "Click on a news article link to read more.",
+            "6": "Return to the search results to explore additional articles if needed."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": -1
+    }
+]

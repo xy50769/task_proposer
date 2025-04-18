@@ -1,0 +1,123 @@
+[
+    {
+        "task": "Find a quick and easy chicken stir-fry recipe with a cooking time of under 30 minutes on Allrecipes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "sending an email"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Go to the Allrecipes homepage.",
+            "2": "Type 'quick chicken stir-fry' in the search bar and press Enter.",
+            "3": "Filter the results by selecting '30 minutes or less' under the cooking time options.",
+            "4": "Click on the first recipe that appears in the filtered results."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 1.0
+    },
+    {
+        "task": "Search for a vegetarian pasta recipe on Allrecipes that serves 4 people and can be prepared in under 40 minutes.",
+        "start_url": "https://www.allrecipes.com/",
+        "max_steps": 7,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching",
+            "sending an email"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Navigate to the Allrecipes homepage.",
+            "2": "Locate the search bar at the top of the page.",
+            "3": "Type 'vegetarian pasta recipe' into the search bar.",
+            "4": "Press the 'Enter' key to initiate the search.",
+            "5": "Use the filter options to select 'Servings: 4'.",
+            "6": "Use the filter options to set 'Preparation time: 40 minutes or less'.",
+            "7": "Review the search results to find suitable recipes."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 1.0
+    },
+    {
+        "task": "Search for wireless earbuds priced between $50 and $150 on Amazon. Then identify one of these wireless earbuds that has at least 15,000 reviews and a rating higher than 4 stars.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "data extraction",
+            "booking"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Go to the search bar on the Amazon homepage.",
+            "2": "Type 'wireless earbuds' and hit enter.",
+            "3": "Use the filter options to set the price range between $50 and $150.",
+            "4": "Scroll through the results to find earbuds with at least 15,000 reviews and a rating greater than 4 stars."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Find a set of wireless earbuds with noise cancellation features and a customer rating of at least 4 stars on Amazon.",
+        "start_url": "https://www.amazon.com/",
+        "max_steps": "8",
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "searching"
+        ],
+        "domain": "Electronics",
+        "steps": {
+            "1": "Go to the Amazon website.",
+            "2": "Locate the search bar at the top of the page.",
+            "3": "Type 'wireless earbuds with noise cancellation' into the search bar.",
+            "4": "Press the 'Enter' key to initiate the search.",
+            "5": "Filter the search results by selecting the rating filter for '4 stars & up'.",
+            "6": "Scroll through the list of results to find suitable earbuds.",
+            "7": "Hover over product images to view quick details.",
+            "8": "Click on a product to view more information."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.9
+    },
+    {
+        "task": "Find and compare the prices of the latest iPhone models available on Apple’s official website, including any available color options.",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 4,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "booking",
+            "data extraction"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Navigate to the Apple homepage.",
+            "2": "Click on the 'iPhone' tab in the top menu.",
+            "3": "Scroll through the available iPhone models and note the prices and color options.",
+            "4": "Go back to the homepage."
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.0
+    },
+    {
+        "task": "Find the specifications and price details of the latest MacBook Pro model on Apple",
+        "start_url": "https://www.apple.com/",
+        "max_steps": 6,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Entertainment",
+        "steps": {
+            "1": "Click on 'Mac' tab in the top menu bar",
+            "2": "Select 'MacBook Pro'",
+            "3": "Scroll down to view the specifications",
+            "4": "Check the price details",
+            "5": "Navigate back to the main page",
+            "6": "Capture a screenshot of the MacBook Pro details"
+        },
+        "final_action": "screenshot_only",
+        "confidence_score": 0.0
+    }
+]

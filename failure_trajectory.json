@@ -1,0 +1,84 @@
+[
+    {
+        "task": "Explore the word of the day feature",
+        "start_url": "https://dictionary.cambridge.org/",
+        "max_steps": 3,
+        "task_difficulty": "low",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Education",
+        "requires_auth": false,
+        "final_action": "submit",
+        "failure_screenshot_path": [
+            "failure_screenshots/explore_the_word_of_the_day_feature_step1.png",
+            "failure_screenshots/explore_the_word_of_the_day_feature_step2.png",
+            "failure_screenshots/explore_the_word_of_the_day_feature_step3.png"
+        ],
+        "failure_trajectory": {
+            "failure_reason": "Website layout changed",
+            "failed_step": 3,
+            "failure_path": [
+                "Step 1: Open Cambridge Dictionary website",
+                "Step 2: Locate 'Word of the Day' section",
+                "Step 3: Section not found on homepage"
+            ]
+        }
+    },
+    {
+        "task": "Report an issue with ESPN's website",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 5,
+        "task_difficulty": "medium",
+        "workflow_domain": [
+            "sending an email"
+        ],
+        "domain": "Entertainment", 
+        "final_action": "submit",
+        "failure_screenshot_path": [
+            "failure_screenshots/report_an_issue_with_espn_s_website_step1.png",
+            "failure_screenshots/report_an_issue_with_espn_s_website_step2.png",
+            "failure_screenshots/report_an_issue_with_espn_s_website_step3.png",
+            "failure_screenshots/report_an_issue_with_espn_s_website_step4.png"
+        ],
+        "failure_trajectory": {
+            "failure_reason": "Email submission failed due to CAPTCHA",
+            "failed_step": 4,
+            "failure_path": [
+                "Step 1: Open ESPN contact page",
+                "Step 2: Fill out issue report form",
+                "Step 3: Click 'Submit' button",
+                "Step 4: CAPTCHA verification required, automated submission blocked"
+            ]
+        }
+    },
+    {
+        "task": "Watch a live game stream on ESPN",
+        "start_url": "https://www.espn.com/",
+        "max_steps": 6,
+        "task_difficulty": "high",
+        "workflow_domain": [
+            "browsing"
+        ],
+        "domain": "Entertainment",
+        "final_action": "screenshot_only",
+        "failure_screenshot_path": [
+            "failure_screenshots/watch_a_live_game_stream_on_espn_step1.png",
+            "failure_screenshots/watch_a_live_game_stream_on_espn_step2.png",
+            "failure_screenshots/watch_a_live_game_stream_on_espn_step3.png",
+            "failure_screenshots/watch_a_live_game_stream_on_espn_step4.png",
+            "failure_screenshots/watch_a_live_game_stream_on_espn_step5.png"
+        ],
+        "failure_trajectory": {
+            "failure_reason": "Subscription required",
+            "failed_step": 5,
+            "failure_path": [
+                "Step 1: Open ESPN website",
+                "Step 2: Navigate to 'Live' section",
+                "Step 3: Click on an ongoing game stream",
+                "Step 4: Redirected to login page",
+                "Step 5: Subscription required to access content"
+            ]
+        }
+    }
+]
