@@ -33,3 +33,25 @@ WebVoyager_test.jsonl for example tasks
 failure_trajectory.json for logging failed cases
 
 Prompt template file with three sections
+
+# Others
+
+Confidence Score
+
+The confidence_score is a float between 0 and 1 used to assess how likely a task is open-ended
+
+It is returned by a GPT classifier based on Prompt 3
+
+1.0 means the task is clearly open-ended
+
+0.0 means the task is clearly non-open-ended
+
+0.5 means the model is uncertain or the task is ambiguous
+
+Threshold
+
+The value of confidence_threshold is set in config.json
+
+Tasks with confidence_score greater than or equal to the threshold are skipped during task refinement
+
+Only tasks with low confidence (below the threshold) are retained and revised
